@@ -89,11 +89,12 @@
    - Images already passingthrough from `img/` to `assets/img/`
    - Videos from `video/` to `assets/video/`
    - PDFs from root to `pdf/`
-   - Consider moving large PDFs (>10MB) to Zenodo/HAL:
-     - `These_carvalho.pdf` (13MB)
-     - `these_carvalho_soutenance.pdf` (26MB)
-     - `merced.pdf` (23MB)
-     - `exposes_mmcs/Lagoutiere.pdf` (71MB)
+   - **Note:** Keeping all large PDFs in repository for now (user preference)
+     - `These_carvalho.pdf` (13MB) - kept locally
+     - `these_carvalho_soutenance.pdf` (26MB) - kept locally
+     - `merced.pdf` (23MB) - kept locally
+     - `exposes_mmcs/Lagoutiere.pdf` (71MB) - kept locally
+   - Total repository size ~570MB is acceptable for GitHub
 
 6. **GitHub Actions Deployment**
    - Create `.github/workflows/deploy.yml`
