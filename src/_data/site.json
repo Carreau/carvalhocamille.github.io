@@ -1,0 +1,47 @@
+{
+  "url": "https://camillecarvalho.org",
+  "title": "Camille Carvalho",
+  "description": "Associate Professor of Applied Mathematics at INSA de Lyon",
+  "languages": {
+    "en": {
+      "locale": "en",
+      "title": "Camille Carvalho",
+      "tagline": "Associate Professor, INSA de Lyon",
+      "description": "Maîtresse de conférence (Associate Professor) at INSA de Lyon, part of the MMCS team at Institut Camille Jordan",
+      "nav": {
+        "home": "Home",
+        "research": "Research",
+        "publications": "Publications",
+        "teaching": "Teaching",
+        "cv": "CV",
+        "students": "Students"
+      },
+      "labels": {
+        "contact": "Contact",
+        "collaborators": "Collaborators",
+        "funding": "Funding provided by",
+        "readMore": "Read more"
+      }
+    },
+    "fr": {
+      "locale": "fr",
+      "title": "Camille Carvalho",
+      "tagline": "Maîtresse de conférence, INSA de Lyon",
+      "description": "Maîtresse de conférence à l'INSA de Lyon, membre de l'équipe MMCS à l'Institut Camille Jordan",
+      "nav": {
+        "home": "Accueil",
+        "research": "Recherche",
+        "publications": "Publications",
+        "teaching": "Enseignement",
+        "cv": "Cursus",
+        "students": "Étudiants"
+      },
+      "labels": {
+        "contact": "Contact",
+        "collaborators": "Collaborateurs",
+        "funding": "Financé par",
+        "readMore": "Lire la suite"
+      }
+    }
+  }
+}

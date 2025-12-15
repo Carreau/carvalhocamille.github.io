@@ -1,0 +1,34 @@
+<header class="site-header">
+  <div class="header-container">
+    <div class="site-title">
+      <h1>
+        <a href="/{{ locale or 'en' }}/">
+          <span class="initial">C</span>amille <span class="initial">C</span>arvalho
+        </a>
+      </h1>
+      <p class="tagline">{{ site.languages[locale or 'en'].tagline }}</p>
+    </div>
+
+    {% set currentLang = locale or 'en' %}
+    {% set langData = site.languages[currentLang] %}
+
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="/{{ currentLang }}/" {% if page.url == '/' + currentLang + '/' %}class="active"{% endif %}>{{ langData.nav.home }}</a></li>
+        <li><a href="/{{ currentLang }}/research/" {% if '/research/' in page.url %}class="active"{% endif %}>{{ langData.nav.research }}</a></li>
+        <li><a href="/{{ currentLang }}/publications/" {% if '/publications/' in page.url %}class="active"{% endif %}>{{ langData.nav.publications }}</a></li>
+        <li><a href="/{{ currentLang }}/teaching/" {% if '/teaching/' in page.url %}class="active"{% endif %}>{{ langData.nav.teaching }}</a></li>
+        <li><a href="/{{ currentLang }}/cv/" {% if '/cv/' in page.url %}class="active"{% endif %}>{{ langData.nav.cv }}</a></li>
+        <li><a href="/{{ currentLang }}/students/" {% if '/students/' in page.url %}class="active"{% endif %}>{{ langData.nav.students }}</a></li>
+      </ul>
+
+      <div class="lang-switcher">
+        {% if currentLang == 'en' %}
+          <a href="{{ page.url | replace('/en/', '/fr/') }}" class="lang-link" aria-label="Switch to French">FR</a>
+        {% else %}
+          <a href="{{ page.url | replace('/fr/', '/en/') }}" class="lang-link" aria-label="Switch to English">EN</a>
+        {% endif %}
+      </div>
+    </nav>
+  </div>
+</header>

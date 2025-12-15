@@ -1,0 +1,311 @@
+/* Components */
+
+/* Card Component */
+.card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  transition: all var(--transition-base);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary-light);
+}
+
+.card-title {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+  color: var(--color-text);
+}
+
+.card-content {
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+/* Button Component */
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  text-align: center;
+  transition: all var(--transition-fast);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-bg-tertiary);
+  border-color: var(--color-primary);
+}
+
+/* Profile Section */
+.profile-section {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+  align-items: start;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.profile-content h1 {
+  margin-top: 0;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin: var(--space-lg) 0;
+}
+
+.social-links a {
+  display: inline-block;
+  transition: transform var(--transition-fast);
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+}
+
+.social-links img {
+  height: 40px;
+  width: auto;
+}
+
+/* Logo Grid */
+.logo-grid {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: center;
+  flex-wrap: wrap;
+  margin: var(--space-xl) 0;
+}
+
+.logo-grid img {
+  height: 60px;
+  width: auto;
+}
+
+/* Research Projects Grid */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-xl);
+  margin: var(--space-2xl) 0;
+}
+
+.research-project {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.research-project:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.research-project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.research-project-content {
+  padding: var(--space-lg);
+}
+
+.research-project h3 {
+  font-size: var(--font-size-lg);
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.research-project p {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
+/* Publications List */
+.publications-list {
+  list-style: decimal;
+  padding-left: var(--space-xl);
+}
+
+.publications-list li {
+  margin-bottom: var(--space-lg);
+  line-height: 1.7;
+}
+
+.publications-list .author {
+  font-weight: 500;
+}
+
+.publications-list .title {
+  font-style: italic;
+}
+
+.publications-list .venue {
+  color: var(--color-text-light);
+}
+
+.publications-list a {
+  margin-left: var(--space-xs);
+  padding: 2px 8px;
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.publications-list a:hover {
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+}
+
+/* Students Grid */
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.student-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+.student-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto var(--space-md);
+}
+
+.student-card h3 {
+  font-size: var(--font-size-lg);
+  margin: 0 0 var(--space-xs) 0;
+}
+
+.student-card .role {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.student-card .description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* Timeline (for teaching history) */
+.timeline {
+  position: relative;
+  padding-left: var(--space-xl);
+  margin: var(--space-xl) 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--color-border);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--space-xl);
+  padding-left: var(--space-lg);
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  border: 3px solid var(--color-bg);
+}
+
+.timeline-item h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
+}
+
+.timeline-item ul {
+  margin-top: var(--space-sm);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-section {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .profile-image {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .students-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-grid {
+    justify-content: center;
+  }
+
+  .logo-grid img {
+    height: 50px;
+  }
+}
