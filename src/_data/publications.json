@@ -1,0 +1,314 @@
+{
+  "journal_articles": [
+    {
+      "year": 2023,
+      "authors": ["C. Carvalho", "Z. Moitier"],
+      "title": "Scattering resonances for unbounded transmission problems with sign-changing coefficient",
+      "venue": "IMA Journal of Applied Mathematics",
+      "volume": "88",
+      "pages": "215-257",
+      "links": {
+        "paper": "https://academic.oup.com/imamat/article/88/2/215/7048617?login=false",
+        "code": "https://github.com/zmoitier/Asymptotic_metacavity"
+      }
+    },
+    {
+      "year": 2022,
+      "authors": ["C. Carvalho", "C. Ciarlet Jr.", "C. Scheid"],
+      "title": "Limiting amplitude principle and resonances in plasmonic structures with corners: numerical investigation",
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "volume": "388",
+      "pages": "114207",
+      "links": {
+        "paper": "https://reader.elsevier.com/reader/sd/pii/S0045782521005387?token=3B04B10CFB0A5C0185ACF536AD1E54FF70E3F24AC745BFEFC7CB47323ED28D36AEEBB15F9BE1DE611E090349F287BE0E&originRegion=us-east-1&originCreation=20211021211952"
+      }
+    },
+    {
+      "year": 2021,
+      "authors": ["C. Carvalho"],
+      "title": "Modified representations for the close evaluation problem",
+      "venue": "Mathematical and Computational Applications",
+      "volume": "26",
+      "pages": "69",
+      "links": {
+        "paper": "https://www.mdpi.com/2297-8747/26/4/69",
+        "code": "https://github.com/carvalhocamille/Subtraction_techniques"
+      }
+    },
+    {
+      "year": 2021,
+      "authors": ["C. Carvalho", "A. D. Kim", "L. Lewis", "Z. Moitier"],
+      "title": "Quadrature by Parity Asymptotic eXpansions (QPAX) for scattering by high aspect ratio particles",
+      "venue": "SIAM Multiscale Modeling and Simulation",
+      "volume": "19",
+      "pages": "1857-1884",
+      "links": {
+        "preprint": "https://arxiv.org/abs/2105.02136",
+        "code": "https://github.com/zmoitier/Scattering_BIE_QPAX"
+      }
+    },
+    {
+      "year": 2020,
+      "authors": ["S. Khatri", "A. D. Kim", "R. Cortes", "C. Carvalho"],
+      "title": "Close evaluation for layer potentials in three dimensions",
+      "venue": "Journal of Computational Physics",
+      "volume": "423",
+      "pages": "109798",
+      "links": {
+        "preprint": "https://arxiv.org/pdf/1807.02474.pdf"
+      }
+    },
+    {
+      "year": 2020,
+      "authors": ["C. Carvalho", "S. Khatri", "A. D. Kim"],
+      "title": "Asymptotic approximations for the close evaluation of double-layer potentials",
+      "venue": "SIAM Journal for Scientific Computing",
+      "volume": "42",
+      "pages": "A504-A533",
+      "links": {
+        "preprint": "https://arxiv.org/pdf/1810.02483.pdf"
+      }
+    },
+    {
+      "year": 2019,
+      "authors": ["P. Sakkaplangkul", "V. Bokil", "C. Carvalho"],
+      "title": "A fully fourth order accurate energy stable FDTD method for Maxwell's equations in metamaterials",
+      "venue": "IEEE Journal on Multiscale and Multiphysics Computational Techniques",
+      "volume": "4",
+      "pages": "260-268",
+      "links": {
+        "preprint": "https://arxiv.org/pdf/1909.06663.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "authors": ["C. Carvalho", "S. Khatri", "A. D. Kim"],
+      "title": "Asymptotic analysis for close evaluation for layer potentials",
+      "venue": "Journal of Computational Physics",
+      "volume": "655",
+      "pages": "327-341",
+      "links": {
+        "preprint": "https://arxiv.org/pdf/1706.00129.pdf"
+      }
+    },
+    {
+      "year": 2018,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "P. Ciarlet Jr."],
+      "title": "Mesh requirements for the finite element approximation of problems with sign-changing coefficients",
+      "venue": "Numerische Mathematik",
+      "volume": "138",
+      "pages": "1-38",
+      "links": {
+        "preprint": "https://hal.archives-ouvertes.fr/hal-01335153/document"
+      }
+    },
+    {
+      "year": 2017,
+      "authors": ["C. Carvalho", "L. Chesnel", "P. Ciarlet Jr."],
+      "title": "Eigenvalue problems with sign-changing coefficients",
+      "venue": "Compte Rendus Mathématiques",
+      "volume": "355",
+      "pages": "671-675",
+      "links": {
+        "preprint": "https://hal.archives-ouvertes.fr/hal-01394856"
+      }
+    },
+    {
+      "year": 2016,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "L. Chesnel", "P. Ciarlet Jr."],
+      "title": "On the use of Perfectly Matched Layers at corners for scattering problems with sign-changing coefficients",
+      "venue": "Journal of Computational Physics",
+      "volume": "322",
+      "pages": "224-247",
+      "links": {
+        "preprint": "https://arxiv.org/pdf/1511.01932.pdf"
+      }
+    },
+    {
+      "year": 2013,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "L. Chesnel", "P. Ciarlet Jr."],
+      "title": "Plasmonic cavity modes: black-hole phenomena captured by Perfectly Matched Layers",
+      "venue": "PROCEEDING of PIERS 2013 in Stockholm",
+      "pages": "638-642"
+    }
+  ],
+  "proceedings": [
+    {
+      "year": 2024,
+      "authors": ["C. Carvalho", "B. Latham"],
+      "title": "Plane Wave DG Method for Solving Helmholtz Equation in Complex Media",
+      "venue": "WAVES, Berlin"
+    },
+    {
+      "year": 2024,
+      "authors": ["C. Carvalho", "S. Chaillat", "E. A. Cortes", "C. Tsogka"],
+      "title": "Fast and accurate boundary integral equation methods for the multi-layer transmission problem",
+      "venue": "WAVES, Berlin"
+    },
+    {
+      "year": 2024,
+      "authors": ["C. Carvalho", "A. D. Kim", "C. McCullough"],
+      "title": "Close evaluation of layer potentials in 3D for the multiple scattering",
+      "venue": "WAVES, Berlin"
+    },
+    {
+      "year": 2022,
+      "authors": ["M. Bussonnier", "C. Carvalho"],
+      "title": "Papyri: better documentation for the scientific ecosystem in Jupyter",
+      "venue": "Proceedings of the 21st Python in Science Conference (SciPy 2022)",
+      "pages": "65-72",
+      "links": {
+        "preprint": "https://conference.scipy.org/proceedings/scipy2022/pdfs/bussonnier.pdf"
+      }
+    },
+    {
+      "year": 2022,
+      "authors": ["C. Carvalho", "A. D. Kim", "B. Latham"],
+      "title": "Capturing plasmonic behaviors in light scattering by spheres using finite element methods and asymptotic quadrature",
+      "venue": "WAVES, Palaiseau",
+      "links": {
+        "preprint": "https://hal.archives-ouvertes.fr/hal-03722963/document"
+      }
+    },
+    {
+      "year": 2022,
+      "authors": ["C. Carvalho", "E. A. Cortes", "C. Tsogka"],
+      "title": "Boundary Integral Equation Methods for Optical Cloaking Models",
+      "venue": "WAVES, Palaiseau",
+      "links": {
+        "preprint": "https://hal.archives-ouvertes.fr/hal-03722966/document"
+      }
+    },
+    {
+      "year": 2022,
+      "authors": ["C. Carvalho", "A. D. Kim", "C. McCullough"],
+      "title": "Asymptotic analysis for sound-hard acoustic scattering by two closely-situated spheres",
+      "venue": "WAVES, Palaiseau",
+      "links": {
+        "preprint": "https://hal.archives-ouvertes.fr/hal-03722969/document"
+      }
+    },
+    {
+      "year": 2022,
+      "authors": ["C. Carvalho", "A. D. Kim", "Z. Moitier"],
+      "title": "Quadrature by Parity Asymptotic eXpansions (QPAX) for light scattering by high aspect ratio plasmonic particle",
+      "venue": "WAVES, Palaiseau",
+      "links": {
+        "preprint": "https://hal.archives-ouvertes.fr/hal-03722962/document"
+      }
+    },
+    {
+      "year": 2017,
+      "authors": ["C. Carvalho", "S. Khatri", "A. D. Kim"],
+      "title": "Local analysis of near fields in acoustic scattering",
+      "venue": "WAVES, Minneapolis",
+      "links": {
+        "preprint": "/pdf/waves_proceeding_17.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "C. Chambeyron", "L. Chesnel", "P. Ciarlet Jr.", "A. Nicolet", "F. Zolla"],
+      "title": "Curious energy losses at corners of metallic inclusions",
+      "venue": "WAVES, Karlsruhe",
+      "links": {
+        "preprint": "/pdf/final_BCC_abstract_waves.pdf"
+      }
+    },
+    {
+      "year": 2015,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "P. Ciarlet Jr."],
+      "title": "Plasmonic waveguides: T-coercivity approach for Maxwell's equations",
+      "venue": "WAVES, Karlsruhe",
+      "links": {
+        "preprint": "/pdf/proceeding_dissipation.pdf"
+      }
+    },
+    {
+      "year": 2013,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "L. Chesnel", "P. Ciarlet Jr.", "X. Claeys"],
+      "title": "Plasmonic cavity modes: black-hole phenomena captured by Perfectly Matched Layers",
+      "venue": "PIERS, Stockholm",
+      "links": {
+        "preprint": "/pdf/2013-proc-uma1367-PIERSFullPaperCarvalho.pdf"
+      }
+    },
+    {
+      "year": 2013,
+      "authors": ["A.-S. Bonnet-Ben Dhia", "C. Carvalho", "L. Chesnel", "P. Ciarlet Jr.", "X. Claeys"],
+      "title": "Plasmonic cavity modes with sign-changing permittivity",
+      "venue": "WAVES, Tunis",
+      "links": {
+        "preprint": "/pdf/Waves13_carvalho.pdf"
+      }
+    }
+  ],
+  "thesis": {
+    "title": "Mathematical and numerical study of plasmonic structure with corners",
+    "year": 2016,
+    "links": {
+      "pdf": "/pdf/These_carvalho.pdf",
+      "defense": "/pdf/these_carvalho_soutenance.pdf"
+    }
+  },
+  "codes": [
+    {
+      "title": "Quadrature by Parity eXpansions for scattering",
+      "language": "Python",
+      "url": "https://github.com/zmoitier/Scattering_BIE_QPAX",
+      "doi": "10.5281/zenodo.4692601"
+    },
+    {
+      "title": "Asymptotics for metamaterial cavities",
+      "language": "Python",
+      "url": "https://github.com/zmoitier/Asymptotic_metacavity",
+      "doi": "10.5281/zenodo.4716362"
+    },
+    {
+      "title": "Subtraction techniques for the close evaluation problem",
+      "language": "Matlab",
+      "url": "https://zenodo.org/record/3934284",
+      "doi": "10.5281/zenodo.3934284"
+    },
+    {
+      "title": "Asymptotic methods for the close evaluation problem",
+      "language": "Mathematica",
+      "url": "https://github.com/arnolddkim/Asymptotic-DLP"
+    }
+  ],
+  "selected_talks": [
+    {
+      "year": 2024,
+      "title": "Integral methods for the close evaluation problem",
+      "venue": "JO des poètes (60th anniversary conference, co-organizer)",
+      "url": "https://jondes2024.sciencesconf.org/"
+    },
+    {
+      "year": 2023,
+      "title": "Scattering instabilities for metamaterial cavities",
+      "venue": "GRD Ondes 2023, Marseille"
+    },
+    {
+      "year": 2023,
+      "title": "Scattering instabilities for metamaterial cavities",
+      "venue": "NACONF23, Glasgow"
+    },
+    {
+      "year": 2023,
+      "title": "Quadrature by Parity Asymptotic eXpansions (QPAX) for light scattering by high aspect ratio plasmonic particle",
+      "venue": "SIAM CSE23, Amsterdam"
+    },
+    {
+      "year": 2020,
+      "title": "Limiting amplitude principle in plasmonic structures with corners",
+      "venue": "Energy and the Environment seminar, UC Merced",
+      "video": "https://ucmerced.app.box.com/s/btqk4zw4he5kqldzykj1tohplahilufv"
+    },
+    {
+      "year": 2018,
+      "title": "Accurate evaluation of electromagnetic near-field in plasmonic structures",
+      "venue": "ICERM Workshop, Providence",
+      "video": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8fb63800-8f8a-4e8f-b9cf-a9050105bee3"
+    }
+  ]
+}
