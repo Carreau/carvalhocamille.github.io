@@ -27,7 +27,7 @@ locale: en
       <a href="https://orcid.org/0000-0002-8426-549X" aria-label="ORCID"><img src="/assets/img/orcid.png" alt="ORCID"></a>
       <a href="https://www.researchgate.net/profile/Camille-Carvalho-2" aria-label="ResearchGate"><img src="/assets/img/researchgate.png" alt="ResearchGate"></a>
       <a href="https://cv.archives-ouvertes.fr/camille-carvalho" aria-label="HAL"><img src="/assets/img/hal2.png" alt="HAL"></a>
-      <a href="https://arxiv.org/search/?query=Carvalho%2C+Camille&searchtype=author" aria-label="arXiv"><img src="/assets/img/arxiv2.jpg" alt="arXiv"></a>
+      <a href="https://arxiv.org/search/?query=Carvalho%2C+Camille&searchtype=author" aria-label="arXiv"><img src="/assets/img/arxiv2.png" alt="arXiv"></a>
     </div>
 
     <div class="logo-grid">
