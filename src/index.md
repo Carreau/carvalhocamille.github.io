@@ -1,6 +1,8 @@
 ---
 title: Home
-permalink: /en/
+permalink: /
+layout: layouts/page.njk
+locale: en
 ---
 
 <div class="profile-section">

@@ -22,26 +22,6 @@
         "funding": "Funding provided by",
         "readMore": "Read more"
       }
-    },
-    "fr": {
-      "locale": "fr",
-      "title": "Camille Carvalho",
-      "tagline": "Maîtresse de conférence, INSA de Lyon",
-      "description": "Maîtresse de conférence à l'INSA de Lyon, membre de l'équipe MMCS à l'Institut Camille Jordan",
-      "nav": {
-        "home": "Accueil",
-        "research": "Recherche",
-        "publications": "Publications",
-        "teaching": "Enseignement",
-        "cv": "Cursus",
-        "students": "Étudiants"
-      },
-      "labels": {
-        "contact": "Contact",
-        "collaborators": "Collaborateurs",
-        "funding": "Financé par",
-        "readMore": "Lire la suite"
-      }
     }
   }
 }

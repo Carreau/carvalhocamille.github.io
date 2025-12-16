@@ -13,13 +13,9 @@ module.exports = function(eleventyConfig) {
   // Watch CSS files for changes
   eleventyConfig.addWatchTarget("src/assets/css/");
 
-  // Collections for bilingual content
-  eleventyConfig.addCollection("posts_en", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/en/**/*.md");
-  });
-
-  eleventyConfig.addCollection("posts_fr", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/fr/**/*.md");
+  // Collections for content
+  eleventyConfig.addCollection("posts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/**/*.md");
   });
 
   // Custom filter for formatting dates

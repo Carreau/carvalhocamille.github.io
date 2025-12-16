@@ -1,6 +1,8 @@
 ---
 title: Teaching
-permalink: /en/teaching/
+permalink: /teaching/
+layout: layouts/page.njk
+locale: en
 ---
 
 ## Fall 2024: Instructor at INSA de Lyon

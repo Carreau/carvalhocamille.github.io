@@ -1,6 +1,8 @@
 ---
 title: CV
-permalink: /en/cv/
+permalink: /cv/
+layout: layouts/page.njk
+locale: en
 ---
 
 ## Current Position
