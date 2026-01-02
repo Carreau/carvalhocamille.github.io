@@ -214,37 +214,27 @@
 /* Publications List */
 .publications-list {
   list-style: none;
-  padding-left: 0;
+  padding-left: 2em;
   counter-reset: pub-counter;
 }
 
 .publications-list li {
   counter-increment: pub-counter;
-  margin-bottom: var(--space-xl);
-  padding-left: var(--space-2xl);
+  margin-bottom: var(--space-md);
   position: relative;
-  line-height: var(--leading-relaxed);
-  border-left: 3px solid var(--color-border-accent);
-  padding-bottom: var(--space-md);
+  line-height: var(--leading-normal);
 }
 
 .publications-list li::before {
-  content: counter(pub-counter);
+  content: counter(pub-counter) ".";
   position: absolute;
-  left: -1.2em;
+  left: -2em;
   top: 0;
-  font-family: var(--font-serif);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-lg);
-  color: var(--color-accent);
-  background-color: var(--color-highlight);
-  width: 2.2em;
-  height: 2.2em;
-  border-radius: var(--radius-full);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid var(--color-accent);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+  color: var(--color-text-light);
+  width: 1.5em;
+  text-align: right;
 }
 
 .publications-list .author {
@@ -555,14 +545,14 @@ figcaption {
   }
 
   .publications-list li {
-    padding-left: var(--space-lg);
+    padding-left: 0;
   }
 
   .publications-list li::before {
-    font-size: var(--font-size-base);
-    width: 2em;
-    height: 2em;
-    left: -1em;
+    position: relative;
+    left: 0;
+    display: inline;
+    margin-right: 0.5em;
   }
 
   .research-memories {
