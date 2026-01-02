@@ -4,11 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/pdf");
   eleventyConfig.addPassthroughCopy("src/quiz");
   eleventyConfig.addPassthroughCopy("src/CNAME");
-
-  // Copy current site assets to maintain backward compatibility during migration
-  eleventyConfig.addPassthroughCopy({ "img": "assets/img" });
-  eleventyConfig.addPassthroughCopy({ "video": "assets/video" });
-  eleventyConfig.addPassthroughCopy({ "*.pdf": "pdf" });
+  eleventyConfig.addPassthroughCopy("historical");
 
   // Watch CSS files for changes
   eleventyConfig.addWatchTarget("src/assets/css/");
