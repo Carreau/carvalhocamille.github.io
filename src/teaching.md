@@ -3,6 +3,7 @@ title: Teaching
 permalink: /teaching/
 layout: layouts/page.njk
 locale: en
+pageClass: teaching-compact
 ---
 
 ## Fall 2024: Instructor at INSA de Lyon

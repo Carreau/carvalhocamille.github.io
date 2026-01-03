@@ -66,10 +66,10 @@ locale: en
 {% endfor %}
 </ol>
 
-<h2>Selected Talks</h2>
+<h2>Talks</h2>
 
 <ol class="publications-list" reversed>
-{% for talk in publications.selected_talks | reverse %}
+{% for talk in publications.talks | reverse %}
   <li>
     <strong>{{ talk.title }}</strong>, {{ talk.venue }}, {{ talk.year }}.
     {% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener">[Conference Site]</a>{% endif %}
