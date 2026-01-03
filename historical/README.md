@@ -13,4 +13,3 @@ December 16, 2025
 - Moved content from `/en/` to root URLs
 - Redesigned theme from corporate blue to warm academic style
 - Research pages converted: FEM.html → /research/fem/, eval.html → /research/evaluation/, transmission.html → /research/transmission/
-

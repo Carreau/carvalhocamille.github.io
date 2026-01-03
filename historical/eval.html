@@ -70,37 +70,37 @@
      	 <h1>Close evaluation of layer potentials</h1>
 		 Sponsored by NSF DMS-1819052.
   <h4>Framework</h4>
-		
+
       <p>
-The close-evaluation problem in boundary integral methods refers to large errors incurred when evaluating layer potentials at points near the boundary of the domain despite being accurate elsewhere in the domain. When using a high order Nyström method to numerically evaluate a layer potential, its high order accuracy will be effective for nearly all points in the domain. However, at close-evaluation points, this quadrature rule will produce an O(1) error. The goal is to address this error using asymptotic analysis of the nearly singular behavior. 	
+The close-evaluation problem in boundary integral methods refers to large errors incurred when evaluating layer potentials at points near the boundary of the domain despite being accurate elsewhere in the domain. When using a high order Nyström method to numerically evaluate a layer potential, its high order accuracy will be effective for nearly all points in the domain. However, at close-evaluation points, this quadrature rule will produce an O(1) error. The goal is to address this error using asymptotic analysis of the nearly singular behavior.
 	 </p>
-	 
+
     <h4>Asymptotic method with deferred correction</h4>
-We developed a numerical method based on asymptotic approximations of the kernel via rational trigonometric functions to capture the peaked behavior for close-evaluation points. Subtracting this approximation allows to use standard Nystrom method, and the remainder can be computed analytically using Fourier convolution sum. 
+We developed a numerical method based on asymptotic approximations of the kernel via rational trigonometric functions to capture the peaked behavior for close-evaluation points. Subtracting this approximation allows to use standard Nystrom method, and the remainder can be computed analytically using Fourier convolution sum.
  <div>
-	  <img src="img/bie.png" width="560"><br>	
+	  <img src="img/bie.png" width="560"><br>
 	  Close evaluation for acoustic scattering. Left: standard Nyström method (O(1) close to the boundary). Right: asymptotic method with deferred correction.
- </div>	
+ </div>
 
 	   <h4>Asymptotic approximations methods</h4>
        <p>
-We developed asymptotic approximations methods based matched asymptotic expansions of layer potentials in 2D and 3D to control the error with respect to the distance from the boundary. 
+We developed asymptotic approximations methods based matched asymptotic expansions of layer potentials in 2D and 3D to control the error with respect to the distance from the boundary.
  	 </p>
 	 <div>
-		  <img src="img/3deval.png" width="600"><br>	
+		  <img src="img/3deval.png" width="600"><br>
 		  Close evaluation for the double-layer potential for Laplace's equation in 3D.
-	 </div>	
-	 
+	 </div>
+
 	   <h4>References </h4>
 	<li >
 		Codes available on <a href="https://github.com/arnolddkim/Asymptotic-DLP"title="GitHub">GitHub.</a>
 	</li>
 	<li >
-		Layer potential identities and subtraction techniques, 
+		Layer potential identities and subtraction techniques,
   <span class='author'>C. Carvalho</span>, submitted. </span> <br> Codes available on <a href="https://github.com/carvalhocamille/Subtraction_techniques"title="GitHub">GitHub.</a>
 	</li>
 	<li >
-		Close evaluation for layer potentials in three dimensions, 
+		Close evaluation for layer potentials in three dimensions,
   <span class='author'>S. Khatri</span>, <span class='author'>A. D. Kim</span>, <span class='author'>R. Cortes</span>, <span class='author'>C. Carvalho</span>, in revision. </span>
 	</li>
 	<li >
@@ -111,29 +111,29 @@ We developed asymptotic approximations methods based matched asymptotic expansio
 			Asymptotic analysis for close evaluation for layer potentials, <br>
 	 <span class='author'>C. Carvalho</span>, <span class='author'>S. Khatri</span>, <span class='author'>A. D. Kim</span>, Journal of Computational Physics, 655, pp 327-341, 2018. </span>
 		</li>
-		
+
 		<h4>Ongoing projects: </h4>
 		 <li>Asymptotic methods for regions of high curvwture </li>
 		 <li>Applications to Stokes flow</li>
-		 <li>Application to transmission problems</li>	
+		 <li>Application to transmission problems</li>
 
-			       
 
-	
-   
+
+
+
   <!--
   <object id="VIDEO" type="video/x-ms-wmv" data="avecPML.wmv" width="360" height="270">
           <param name="src" value="avecPML.wmv" />
-          <param name="autostart" value="1" /> 
+          <param name="autostart" value="1" />
           <param name="width" value="360" />
           <param name="height" value="270" />
           <param name="repeat" value="-1" />
           <param name="showcontrols" value="true" />
-                  <embed src="avecPML.wmv" width="360" height="270"></embed> 
+                  <embed src="avecPML.wmv" width="360" height="270"></embed>
               </object>  -->
-  		 
-  
-	
+
+
+
 
 
       <!-- .footer: the site footer text, links and whatever else -->
