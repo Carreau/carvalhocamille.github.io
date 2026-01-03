@@ -306,6 +306,73 @@
   margin: var(--space-lg) 0;
 }
 
+/* Students Compact Layout */
+.students-compact h2 {
+  font-size: var(--font-size-xl);
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.students-compact .students-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.students-compact .student-card {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+}
+
+.students-compact .student-card img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto var(--space-sm);
+}
+
+.students-compact .student-card h3 {
+  font-size: var(--font-size-base);
+  margin: 0 0 0.25rem 0;
+}
+
+.students-compact .student-card .role {
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--space-xs);
+}
+
+.students-compact .student-card .description {
+  font-size: var(--font-size-xs);
+  line-height: var(--leading-normal);
+}
+
+.students-compact .research-memories {
+  margin-top: var(--space-lg);
+  padding: var(--space-md);
+}
+
+.students-compact .research-memories h2 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-md);
+}
+
+.students-compact .memory-gallery {
+  gap: var(--space-lg);
+  margin-top: var(--space-md);
+}
+
+.students-compact .memory-frame {
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  border-width: 2px;
+}
+
+.students-compact .memory-caption {
+  margin-top: var(--space-sm);
+  font-size: var(--font-size-base);
+}
+
 /* Students Grid */
 .students-grid {
   display: grid;

@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/quiz");
   eleventyConfig.addPassthroughCopy("src/CNAME");
   eleventyConfig.addPassthroughCopy("historical");
+  eleventyConfig.addPassthroughCopy("css");
 
   // Watch CSS files for changes
   eleventyConfig.addWatchTarget("src/assets/css/");
