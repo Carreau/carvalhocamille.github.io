@@ -7,7 +7,7 @@
       },
       "name": "Elsie Cortes",
       "photo": "ecortes2.jpg",
-      "status": "PhD Candidate (exp. grad. Fall 2025)"
+      "status": "PhD Candidate (exp. grad. June 2026)"
     }
   ],
   "graduate_students": [
@@ -29,7 +29,8 @@
       },
       "name": "Benjamin Latham",
       "photo": "blatham.jpg",
-      "status": "PhD Student (8/2019-7/2025)"
+      "status": "PhD 2025",
+      "thesis": "https://escholarship.org/uc/item/7ck2r9r1"	  
     },
     {
       "coadvised_with": {
@@ -38,7 +39,8 @@
       },
       "name": "Cory McCullough",
       "photo": "photos/cmccullough.jpg",
-      "status": "PhD Student (8/2019-7/2025)"
+      "status": "PhD 2025",
+	  "thesis": "https://escholarship.org/uc/item/7mn100jg"
     },
     {
       "coadvised_with": [

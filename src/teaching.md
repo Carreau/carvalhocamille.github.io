@@ -6,40 +6,48 @@ locale: en
 pageClass: teaching-compact
 ---
 
-## Fall 2024: Instructor at INSA de Lyon
+## Spring 2022 -- Present: Instructor at INSA de Lyon
 
+#### Spring 2026 (Sabbatical)
+
+#### Fall 2025
+- Instructor of record for Mathematics SCAN (first-year)
+- TA for Mathematics SCAN (first-year)
+
+#### Spring 2025 (Maternity leave)
+
+#### Fall 2024
 - Instructor of record for Mathematics SCAN (first-year)
 - TA for Mathematics SCAN (first-year)
 - TA for Numerical Mathematical Tools (OMNI, first-year)
 - TA for Mathematics in the SGM department (third-year)
 
-## Spring 2024: Instructor at INSA de Lyon
+#### Spring 2024
 
 - TA for Numerical Mathematical Tools (OMNI, first-year)
 - Instructor for P2I8 math module on Fourier Series (second-year)
 - Instructor for P2I7 numerical methods and final project modules (second-year)
 
-## Fall 2023: Instructor at INSA de Lyon
+#### Fall 2023
 
 - Instructor of record for Mathematics SCAN (first-year)
 - TA for Mathematics SCAN (first-year)
 - TA for Numerical Mathematical Tools (OMNI, first-year)
 - TA for Mathematics in the SGM department (third-year)
 
-## Spring 2023: Instructor at INSA de Lyon
+#### Spring 2023
 
 - TA for Mathematics (first-year)
 - TA for Numerical Mathematical Tools (OMNI, first-year)
 - Instructor for P2I8 math module on Fourier Series (second-year)
 - Instructor for P2I7 numerical methods and final project modules (second-year)
 
-## Fall 2022: Instructor at INSA de Lyon
+#### Fall 2022
 
 - TA for Numerical Mathematical Tools (OMNI, first-year)
 - TA for Mathematics in the SGM department (third-year)
 
-## Spring 2022: Instructor at INSA de Lyon
-
+#### Spring 2022
 - TA for Mathematics (first-year)
 - Instructor for P2I8 math module on Fourier Series (second-year)
 - Participant for P2I7 final numerical modeling project (second-year)
@@ -48,37 +56,37 @@ pageClass: teaching-compact
 
 ## 2016-2021: Instructor at UC Merced
 
-### Fall 2021
+#### Fall 2021
 - Instructor for [Math 122](https://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2164): Complex Analysis
 
-### Spring 2021
+#### Spring 2021
 - Instructor for [Math 150](https://catalog.ucmerced.edu/preview_course_nopop.php?catoid=6&coid=12511): Mathematical Modeling
 
-### Fall 2020
+#### Fall 2020
 - Instructor for Math 24: Linear Algebra and Differential Equations
 - Instructor for Math 292: Boundary Integral Methods
 
-### Spring 2020
+#### Spring 2020
 - Instructor for [Math 150](https://catalog.ucmerced.edu/preview_course_nopop.php?catoid=6&coid=12511): Mathematical Modeling
 
-### Fall 2019
+#### Fall 2019
 - Instructor for [Math 122](https://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2164): Complex Analysis
 
-### Spring 2019
+#### Spring 2019
 - Instructor for [Math 150](https://catalog.ucmerced.edu/preview_course_nopop.php?catoid=6&coid=12511): Mathematical Modeling
 
-### Spring 2018
+#### Spring 2018
 - Instructor for [Math 131](http://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2167): Numerical Analysis for Engineers
 - [GitHub repository with lecture notes](https://carvalhocamille.github.io/math-131/)
 
-### Fall 2017
+#### Fall 2017
 - Instructor for [Math 23](http://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2154): Vector Calculus
 - Instructor for [Math 131](http://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2167): Numerical Analysis for Engineers
 
-### Spring 2017
+#### Spring 2017
 - Instructor for [Math 23](http://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2154): Vector Calculus
 
-### Fall 2016
+#### Fall 2016
 - Instructor for [Math 23](http://catalog.ucmerced.edu/preview_course_nopop.php?catoid=2&coid=2154): Vector Calculus
 
 ---
